@@ -1,0 +1,27 @@
+h1 {
+    
+}
+
+.navbar {
+  
+    border: 5px solid black;
+}
+
+.navbar-items > li > a { 
+    float: right;
+    text-decoration: none;
+    color: #ffff;
+    background-color: #023047;
+    width: 100px;
+    padding: 5px 5px;
+    text-align: center;
+    border: 2px solid rgb(60, 44, 124); /* delete when done */
+    margin-left: 20px;
+    margin-right: 20px
+}
+
+.navbar-items > li > a:hover {
+    color: #edede9;
+    background-color: #495867;
+}
+
