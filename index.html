@@ -1,39 +1,97 @@
 <!DOCTYPE html>
 <html lang="en">
-    <head>
-        <meta charset="UTF-8">
-        <meta name="viewport" content="width=device-width, initial-scale=1.0">
-        <meta http-equiv="X-UA-Compatible" content="ie=edge">
-        <link rel="stylesheet" href="./assets/reset.css">
-        <link rel="stylesheet" href="./assets/styles.css">
-        <title>My Portfolio</title>
-    </head>
 
-    <header>
-        <h1>Matthew Nguyen</h1>
-        <nav class="navbar">
-            <ul class="navbar-items">
-                <li>
-                    <a href="#contact">Contact</a>
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="./assets/reset.css">
+    <link rel="stylesheet" href="./assets/styles.css">
+    <title>Matthew A. Nguyen</title>
+</head>
+
+<header>
+    <h1>Professional Portfolio</h1>
+</header>
+
+<body>
+    <main>
+        <nav class="navbar-items">
+            <ul>
+                <li class="link-item">
+                    <a href="#projects">Projects</a>
                 </li>
-                <li>
+                <li class="link-item">
                     <a href="#about">About</a>
                 </li>
-                <li>
-                    <a href="#home">Home</a>
+                <li class="link-item">
+                    <a href="#contact">Contact</a>
+                </li>
+                <li class="link-item">
+                    <a href="https://github.com/mattwhen" target="_blank">Github</a>
                 </li>
             </ul>
         </nav>
-    </header>
 
-    <body>
-        <section id="about">
-            <h2>About me</h2>
+
+
+        <section class="about-me-container">
+            <img src="./images/IMG_6546.jpeg" alt="A portrait picture of Matthew Nguyen taken with iPhone">
+            <div class="about-me">
+                <h2 id="about">About me</h2>
+                <p>Hi, welcome to my webpage. My name is Matt, and I am a current bootcamp student. I like to code, eat,
+                    and play video games &#127918 .
+                    I like front end development due to it's immediate visual feedback and to also showcase my
+                    creativity!</p>
+            </div>
         </section>
-    </body>
 
-    <footer>
-        <p>&copy Matthew A. Nguyen. All Rights Reserved.</p>
-    </footer>
+        <section>
+            <h2 id="projects">Projects</h2>
+            <div class="grid-container">
+                <div class="grid-item"></div>
+                <div class="grid-item"></div>
+                <div class="grid-item"></div>
+                <div class="grid-item"></div>
+                <div class="grid-item"></div>
+                <div class="grid-item"></div>
+            </div>
+
+        </section>
+
+        <section class="contact-me">
+            <h2 id="contact">Contact Me</h2>
+            <div class="form-container">
+                <form action="./lolipop" class="form">
+                    <ul>
+                        <li>
+                            <label for="name"></label>
+                            <input type="text" placeholder="Name" id="name" class="input-box">
+                        </li>
+                        <li>
+                            <label for="email"></label>
+                            <input type="email" placeholder="Email" id="email" class="input-box">
+                        </li>
+                        <li>
+                            <label for="message"></label>
+                            <textarea name="message" id="message" class="input-box"
+                                placeholder="Enter message here..."></textarea>
+                        </li>
+                    </ul>
+
+
+
+
+            </div>
+            </form>
+            <button>Submit</button>
+        </section>
+
+    </main>
+</body>
+
+<footer>
+    <p>&copy Matthew A. Nguyen. All Rights Reserved.</p>
+</footer>
 
 </html>
