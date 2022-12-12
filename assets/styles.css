@@ -98,17 +98,25 @@ img {
 /* Projects section */
 
 .projects-container {
-    display: inline-grid;
+    /* display: inline-grid;
     gap: 25px;
-    grid-template-columns: auto auto auto;
+    grid-template-columns: auto auto auto; */
+    display: flex;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
     background-color: var(--secondary-nav);
     padding: 10px;
     border: 3px solid red; /* Delete */
 }
 
 .projects-item {
-    border: 1px solid black;
-    padding: 10px;
+    padding: 0px;
+}
+
+.projects-item-header {
+    color: var(--white);
+    font-size: 20px;
+    text-transform: uppercase;
 }
 
 #study-guide {
