@@ -97,7 +97,7 @@ img {
 
 /* Projects section */
 
-.grid-container {
+.projects-container {
     display: inline-grid;
     gap: 25px;
     grid-template-columns: auto auto auto;
@@ -106,9 +106,13 @@ img {
     border: 3px solid red; /* Delete */
 }
 
-.grid-item {
+.projects-item {
     border: 1px solid black;
     padding: 10px;
+}
+
+#study-guide {
+    width: 400px;
 }
 
 /* Contact me section */ 
@@ -125,7 +129,7 @@ form ul
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 }
 
-.contact-me > h2 {
+.title-section {
     font-size: 50px;
     text-align: center;
     margin: 1em;
