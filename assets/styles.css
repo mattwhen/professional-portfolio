@@ -151,9 +151,7 @@ img {
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 }
 
-input.input-box, textarea.input-box {
 
-}
 
 .title-section {
     font-size: 50px;
@@ -170,4 +168,10 @@ footer {
 
 footer p {
     font-size: 1.5em;
+}
+
+@media screen and (max-width: 700px) {
+    header h1 {
+        font-size: 24px;
+    }
 }
