@@ -16,11 +16,9 @@
 
 <body>
     <main>
-        <nav class="navbar-items">
+        <!-- Navbar -->
+        <nav class="navbar">
             <ul>
-                <li class="link-item">
-                    <a href="#projects">Projects</a>
-                </li>
                 <li class="link-item">
                     <a href="#about">About</a>
                 </li>
@@ -30,11 +28,14 @@
                 <li class="link-item">
                     <a href="https://github.com/mattwhen" target="_blank">Github</a>
                 </li>
+                <li class="link-item">
+                    <a href="#projects">Projects</a>
+                </li>
             </ul>
         </nav>
 
 
-
+        <!-- About me section -->
         <section class="about-me-container">
             <img src="./images/IMG_6546.jpeg" alt="A portrait picture of Matthew Nguyen taken with iPhone">
             <div class="about-me">
@@ -45,44 +46,41 @@
                     creativity!</p>
             </div>
         </section>
-
+        <!-- Projects showcase -->
         <section>
             <h2 id="projects" class="title-section">Projects</h2>
             <div class="projects-container">
                 <div class="projects-item">
-                    <a href="https://mattwhen.github.io/prework-study-guide/" target="_blank"><img src="./images/Study_Guide.png" id="study-guide" alt="a handy study-guide that provides useful info on HTML, CSS, Git, & JavaScript."></a>
-                    <h3 class="projects-item-header">Project 1</h3>
+                    <a href="https://mattwhen.github.io/prework-study-guide/" target="_blank"><img
+                            src="./images/Study_Guide.png" id="study-guide"
+                            alt="a handy study-guide that provides useful info on HTML, CSS, Git, & JavaScript."></a>
+                    <h3 class="projects-item-header">Prework Study Guide</h3>
                 </div>
                 <div class="projects-item">
                     <img src="" alt="">
                     <h3 class="projects-item-header">Project 2</h3>
                 </div>
-                  
+
                 <div class="projects-item">
-                    <a href="https://mattwhen.github.io/Pricing-Panel/" target="_blank"><img src="./images/Pricing_Panel.png" alt="A sample image of a pricing panel for sleeping mattresses"></a>
-                    <h3 class="projects-item-header">Project 3</h3>
+                    <a href="https://mattwhen.github.io/Pricing-Panel/" target="_blank"><img
+                            src="./images/Pricing_Panel.png"
+                            alt="A sample image of a pricing panel for sleeping mattresses"></a>
+                    <h3 class="projects-item-header">Pricing Panel</h3>
                 </div>
                 <div class="projects-item">
                     <a href=""><img src="" alt=""></a>
                     <h3 class="projects-item-header">Project 4</h3>
                 </div>
-                <div class="projects-item">
-                    <a href=""><img src="" alt=""></a>
-                    <h3 class="projects-item-header">Project 5</h3>
-                </div>
-                <div class="projects-item">
-                    <a href=""><img src="" alt=""></a>
-                    <h3 class="projects-item-header">Project 6</h3>
-                </div>
             </div>
 
         </section>
 
+        <!-- Form Section -->
         <section class="contact-me">
             <h2 id="contact" class="title-section">Contact Me</h2>
             <div class="form-container">
                 <form action="./lolipop" class="form">
-                    <ul>
+                    <ul class="form-list">
                         <li>
                             <label for="name"></label>
                             <input type="text" placeholder="Name" id="name" class="input-box">
@@ -108,7 +106,7 @@
 
     </main>
 </body>
-
+    <!-- Footer section and copyright info -->
 <footer>
     <p>&copy Matthew A. Nguyen. All Rights Reserved.</p>
 </footer>
